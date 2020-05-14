@@ -38,6 +38,9 @@ function addTodo(event) {
   // Append to TodoDiv
   todoDiv.appendChild(deleteButton);
 
-  // Append to TodoList
+  // Append to todo-list
   todoList.appendChild(todoDiv);
+
+  // Clear todo-input
+  todoInput.value = "";
 }
